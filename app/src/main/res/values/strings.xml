@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">OnCloudERPMobileApp</string>
+    <string name="hello_world">Welcome to OnCloudERP Android App</string>
+    <string name="action_settings">Settings</string>
+    <string name="Welcomes_OnCloudERP">Welcome to OnCloudERP</string>
+    <string name="SignIn">Sign In</string>
+    <string name="LogOut">Log Out</string>
+    <string name="Pass_Word">Password </string>
+    <string name="User_Name">Username </string>
+    <string name="User_Profile">User Profile </string>
+    <string name="Your_Image">Your Image :</string>
+    <string name="remember_me">Remember Me</string>
+    <string name="about_us">About Us</string>
+    <string name="contact">Contact Us</string>
+    <string name="login">Log In</string>
+    <string name="profile">Profile</string>
+    <string name="logout">LogOut</string>
+    <string name="ContactInformation">Contact Information</string>
+    <string name="Address">Address</string>
+    <string name="CompanyName">Cloud Pencils Pvt Ltd,</string>
+    <string name="StreetName">C-61, Mullai Street,</string>
+    <string name="NagarName">Vivekananda Nagar,</string>
+    <string name="CityName">Ambattur,</string>
+    <string name="MainCityName">Chennai - 600053,</string>
+    <string name="StateName">Tamil Nadu,</string>
+    <string name="CountryName">India.</string>
+    <string name="Email">Email</string>
+    <string name="EmailId">info@onclouderp.com</string>
+    <string name="Phone">Phone</string>
+    <string name="PhoneNumber">+91 (044) 26584777</string>
+    <string name="Website">Website</string>
+    <string name="Websites">www.onclouderp.com</string>
+    <string name="title_activity_main_activity1">MainActivity1</string>
+    <string name="title_activity_main_activity2">MainActivity2</string>
+    <string name="title_activity_about_us">About Us</string>
+    <string name="title_activity_contact_us">Contact Us</string>
+    <string name="title_activity_home_page">OnCloudERP</string>
+    <string name="home_page">Home Page </string>
+    <string name="content">We are providing a simple</string>
+    <string name="content1">OnCoudERP is integrated with</string>
+    <string name="content2">secure cloud environment.</string>
+    <string name="content01">platform to synchronize all your </string>
+    <string name="content02">business processes.</string>
+    <string name="content3">We give suggestions to take</string>
+    <string name="content4">effective business decisions.</string>
+    <string name="content5">Providing awesome user</string>
+    <string name="content6">experience with easy navigations.</string>
+    <string name="content7">Dashboards will give you a</string>
+    <string name="content8">wide view of your business.</string>
+    <string name="notification">Notification</string>
+    <string name="change_company">Change Company or Role</string>
+    <string name="select_role">Select Your Role</string>
+    <string name="select_Company">Select Company</string>
+    <string name="submit">Submit</string>
+    <string name="OurWebsite">Our Website</string>
+    <string name="Hi">Hello</string>
+    <string name="Summary">Summary</string>
+    <string name="SalesSummary">Total Sales</string>
+    <string name="PurchaseSummary">Total Purchase</string>
+    <string name="SalesBilling">Total Sales Billing</string>
+    <string name="PurchaseBilling">Total Purchase Billing</string>
+    <string name="Receipt">Total Receipt</string>
+    <string name="Payment">Total Payment</string>
+    <string name="Reports">Reports</string>
+    <string name="customer">Customer</string>
+    <string name="customerPONumber">Customer PO Number</string>
+    <string name="customerAddress">Customer Address</string>
+    <string name="shippingAddress">Shipping Address</string>
+    <string name="customerPoDate">Customer PO Date</string>
+    <string name="deliveryDate">Delivery Date</string>
+    <string name="currency">Currency</string>
+    <string name="currencyValue">Currency Value</string>
+    <string name="salesPerson">Sales Person</string>
+    <string name="priceList">Price List</string>
+    <string name="saleOrderValue">Sale Order Value</string>
+    <string name="baseCurrencyValue">Base Currency Value</string>
+    <string name="remarks">Remarks</string>
+    <string name="item_details">Item Details</string>
+    <string name="documentNo">Document No</string>
+    <string name="entryDate">Entry Date</string>
+    <string name="ItemVsSales">Items Vs Sales</string>
+    <string name="vendor">Vendor</string>
+    <string name="vendorContact">Vendor Contact</string>
+    <string name="referenceNumber">Reference Number</string>
+    <string name="vendorAddress">Vendor Address</string>
+    <string name="back">Go Back</string>
+    <string name="requestedDelieveryDate">Requested Delivery Date</string>
+    <!--
+    <string-array name="planets_array">
+        <item>Mercury</item>
+        <item>Venus</item>
+        <item>Earth</item>
+        <item>Mars</item>
+        <item>Jupiter</item>
+        <item>Saturn</item>
+        <item>Uranus</item>
+        <item>Neptune</item>
+    </string-array>
+    -->
+    <string-array name="planets_array">
+        <item>About Us</item>
+        <item>Contact Us</item>
+        <item>Login</item>
+        <!--
+             <item>Mars</item>
+        <item>Jupiter</item>
+        <item>Saturn</item>
+        <item>Uranus</item>
+        <item>Neptune</item>
+        -->
+    </string-array>
+
+    <string name="from_date">From Date</string>
+    <string name="to_date">To Date</string>
+    <string name="app_not_available">Sorry, there\'s no web browser available</string>
+    <string name="drawer_open">Open navigation drawer</string>
+    <string name="drawer_close">Close navigation drawer</string>
+    <string name="strength">Our Strengths</string>
+    <string name="pickDate">Pick Date</string>
+    <string name="title_activity_nav_bar">Notification</string>
+    <string name="title_activity_approval">Approval</string>
+    <string name="title_activity_action_bar">ActionBarActivity</string>
+    <string name="action_websearch">Web search</string>
+    <string name="title_activity_summary">Summary</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="title_activity_login">Login Page</string>
+    <string name="SaleOrder">Sales Order</string>
+    <string name="PurchaseOrder">Purchase Order</string>
+    <string name="title_activity_report">ReportActivity</string>
+    <string name="title_activity_sale_order">Sale Order</string>
+    <string name="title_activity_sale_order_details">Sale Order Details</string>
+    <string name="title_activity_sale_order_item_details">Item Details</string>
+    <string name="title_activity_sale_order_terms_and_condition">Terms And Conditions</string>
+    <string name="title_activity_sale_order_status">Status</string>
+    <string name="title_activity_purchase_order">Purchase Order</string>
+    <string name="title_activity_purchase_order_details">Purchase Order Details</string>
+    <string name="title_activity_purchase_order_item_details">Purchase Order Item Details</string>
+    <string name="title_activity_purchase_order_terms_and_conditions">Purchase Order Terms And Conditions</string>
+    <string name="title_activity_fusion_chart">FusionChart</string>
+    <string name="fusionchart_native_android_sample">FusionChart Native Android Sample</string>
+    <string name="render_bar2d_chart">Item Vs Sales Column Chart</string>
+    <string name="render_column_chart">Item Vs Sales Pie Chart</string>
+    <string name="title_activity_web_view">WebView</string>
+    <string name="itemVsSalesPieChart">Item Vs Sales Colum Chart</string>
+    <string name="itemVsSalesBarChaty">Item Vs Sales Bar Chart</string>
+    <string name="title_activity_charts_item_vs_sales">ChartsItemVsSales</string>
+    <string name="itemVsSalesFusionCharts">Item Vs Sales Fusion Chart</string>
+    <string name="title_activity_pie_chart_item_vs_sales">PieChartItemVsSalesActivity</string>
+
+</resources>

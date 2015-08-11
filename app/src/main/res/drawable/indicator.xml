@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android" >
+    
+    <item 
+        android:state_expanded="true"
+        android:drawable="@drawable/expand_less"
+        android:left="20dp"
+            android:right="-30dp"
+            android:top="120dp"
+            android:bottom="10dp" >
+    </item>
+    <item android:state_empty="true"
+          android:drawable="@drawable/expand_more"
+          android:left="20dp"
+            android:right="-30dp"
+            android:top="120dp"
+            android:bottom="10dp">
+    </item>
+    <item android:drawable="@drawable/expand_more"
+      ></item>
+
+</selector>

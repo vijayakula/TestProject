@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ScrollView01"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#FFFFFF"
+    android:scrollbarStyle="insideOverlay" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin" >
+
+        <TextView
+            android:id="@+id/nameText4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/nameText2"
+            android:layout_below="@+id/nameText2"
+            android:text="@string/content2"
+            android:textSize="17sp" />
+
+        <TextView
+            android:id="@+id/nameText3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@+id/nameText"
+            android:layout_marginLeft="12dp"
+            android:layout_marginTop="10dp"
+            android:text="@string/strength"
+            android:textColor="#428bca"
+            android:textSize="17sp"
+            android:textStyle="bold|normal" />
+
+        <TextView
+            android:id="@+id/nameText1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/nameText3"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="16dp"
+            android:drawableLeft="@drawable/bullets"
+            android:drawablePadding="5dp"
+            android:text="@string/content"
+            android:textSize="17sp" />
+
+        <TextView
+            android:id="@+id/nameText2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/nameText1"
+            android:layout_below="@+id/nameContent"
+            android:layout_marginTop="8dp"
+            android:drawableLeft="@drawable/bullets"
+            android:drawablePadding="5dp"
+            android:text="@string/content1"
+            android:textSize="17sp" />
+
+        <TextView
+            android:id="@+id/nameText5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/nameText1"
+            android:layout_below="@+id/nameText1"
+            android:text="@string/content01"
+            android:textSize="17sp" />
+
+        <TextView
+            android:id="@+id/nameContent"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/nameText1"
+            android:layout_below="@+id/nameText5"
+            android:text="@string/content02"
+            android:textSize="17sp" />
+
+        <TextView
+            android:id="@+id/nameText6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/nameText4"
+            android:layout_below="@+id/nameText4"
+            android:layout_marginTop="8dp"
+            android:drawableLeft="@drawable/bullets"
+            android:drawablePadding="5dp"
+            android:text="@string/content3"
+            android:textSize="17sp" />
+
+        <TextView
+            android:id="@+id/nameText7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/nameText4"
+            android:layout_below="@+id/nameText6"
+            android:text="@string/content4"
+            android:textSize="17sp" />
+
+        <TextView
+            android:id="@+id/nameText9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/nameText4"
+            android:layout_below="@+id/nameText8"
+            android:text="@string/content6"
+            android:textSize="17sp" />
+
+        <TextView
+            android:id="@+id/nameText8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/nameText9"
+            android:layout_below="@+id/nameText7"
+            android:layout_marginTop="8dp"
+            android:drawableLeft="@drawable/bullets"
+            android:drawablePadding="5dp"
+            android:text="@string/content5"
+            android:textSize="17sp" />
+
+        <TextView
+            android:id="@+id/nameText11"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/nameText4"
+            android:layout_below="@+id/nameText10"
+            android:text="@string/content8"
+            android:textSize="17sp" />
+
+        <TextView
+            android:id="@+id/nameText10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/nameText9"
+            android:layout_below="@+id/nameText9"
+            android:layout_marginTop="8dp"
+            android:drawableLeft="@drawable/bullets"
+            android:drawablePadding="5dp"
+            android:text="@string/content7"
+            android:textSize="17sp" />
+
+        <TextView
+            android:id="@+id/nameText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="22dp"
+            android:text="@string/title_activity_home_page"
+            android:textSize="19sp"
+            android:textStyle="bold|normal" />
+    </RelativeLayout>
+
+</ScrollView>

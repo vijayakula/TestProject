@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.onclouderpandroidapp"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk android:minSdkVersion="9" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".HomeActivity"
+            android:label="@string/title_activity_home_page" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".AboutUsActivity"
+            android:label="@string/title_activity_about_us" >
+        </activity>
+        <activity
+            android:name=".ContactUsActivity"
+            android:label="@string/title_activity_contact_us" >
+        </activity>
+        <activity
+            android:name=".LoginActivity"
+            android:label="@string/title_activity_login" >
+        </activity>
+        <activity
+            android:name=".LinkActivity"
+            android:label="@string/title_activity_approval" >
+        </activity>
+        <activity
+            android:name=".ApprovalActivity"
+            android:label="@string/title_activity_approval" >
+        </activity>
+        <activity
+            android:name=".ReportActivity"
+            android:label="@string/title_activity_report" >
+        </activity>
+        <activity
+            android:name=".SaleOrderActivity"
+            android:label="@string/title_activity_sale_order" >
+        </activity>
+        <activity
+            android:name=".SaleOrderDetailsActivity"
+            android:label="@string/title_activity_sale_order_details" >
+        </activity>
+        <activity
+            android:name=".SaleOrderItemDetailsActivity"
+            android:label="@string/title_activity_sale_order_item_details" >
+        </activity>
+        <activity
+            android:name=".SaleOrderTermsAndConditionActivity"
+            android:label="@string/title_activity_sale_order_terms_and_condition" >
+        </activity>
+        <activity
+            android:name=".SaleOrderStatusActivity"
+            android:label="@string/title_activity_sale_order_status" >
+        </activity>
+        <activity
+            android:name=".PurchaseOrder"
+            android:label="@string/title_activity_purchase_order" >
+        </activity>
+        <activity
+            android:name=".PurchaseOrderDetails"
+            android:label="@string/title_activity_purchase_order_details" >
+        </activity>
+        <activity
+            android:name=".PurchaseOrderItemDetails"
+            android:label="@string/title_activity_purchase_order_item_details" >
+        </activity>
+        <activity
+            android:name=".PurchaseOrderTermsAndConditions"
+            android:label="@string/title_activity_purchase_order_terms_and_conditions" >
+        </activity>
+        <activity
+            android:name=".FusionChart"
+            android:label="@string/title_activity_fusion_chart" >
+        </activity>
+        <activity
+            android:name=".ChartsItemVsSales"
+            android:label="@string/title_activity_charts_item_vs_sales" >
+        </activity>
+        <activity
+            android:name=".PieChartItemVsSalesActivity"
+            android:label="@string/title_activity_pie_chart_item_vs_sales" >
+        </activity>
+    </application>
+
+</manifest>

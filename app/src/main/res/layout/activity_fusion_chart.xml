@@ -1,0 +1,35 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/itemVsSalesFusionCharts" />
+
+    <include
+        android:id="@+id/include1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        layout="@android:layout/activity_list_item" />
+
+    <Button
+        android:id="@+id/btnBarChart"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/btnColumnChart"
+        android:layout_below="@+id/btnColumnChart"
+        android:layout_marginTop="35dp"
+        android:text="@string/itemVsSalesPieChart" />
+
+    <Button
+        android:id="@+id/btnColumnChart"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/include1"
+        android:layout_below="@+id/include1"
+        android:text="@string/itemVsSalesBarChaty" />
+
+</RelativeLayout>

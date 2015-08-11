@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="#FFFFFF"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin" >
+
+     <TextView
+        android:id="@+id/contactDetails"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        
+        android:layout_centerHorizontal="true"
+        android:clickable="true"
+        android:drawableTop="@drawable/headphone"
+        android:onClick="click"
+        android:text="@string/contact"
+        android:textColor="#00008B"
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/login"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/about_us"
+        android:layout_alignBottom="@+id/contactDetails"
+        android:layout_alignParentRight="true"
+        android:clickable="true"
+        android:drawablePadding="5dp"
+        android:drawableTop="@drawable/login_big"
+        android:onClick="click"
+        android:paddingRight="20dp"
+        android:text="@string/login"
+        android:textColor="#00008B"
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/about_us"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignTop="@+id/contactDetails"
+        android:layout_marginLeft="18dp"
+        android:clickable="true"
+        android:drawablePadding="5dp"
+        android:drawableTop="@drawable/info_icon"
+        android:onClick="click"
+        android:paddingRight="20dp"
+        android:text="@string/about_us"
+        android:textColor="#00008B"
+        android:textSize="15sp" />
+
+</RelativeLayout>
+
+<!-- <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:id="@+id/relLay" >
+    <ImageButton android:src="@drawable/menu_icon"
+                 android:background="?attr/actionBarItemBackground"
+                 android:layout_width="?attr/actionBarSize"
+                 android:layout_height="match_parent"
+                 android:scaleType="centerInside"
+                 android:contentDescription="@string/Your_Image"
+                 android:id="@+id/Imageitem1"
+                 android:layout_alignParentLeft="true"
+                 android:layout_alignParentTop="true"/>
+
+    <ImageButton android:src="@drawable/contact_us"
+                 android:background="?attr/actionBarItemBackground"
+                 android:layout_width="?attr/actionBarSize"
+                 android:layout_height="match_parent"
+                 android:scaleType="centerInside"
+                 android:id="@+id/item2"
+                 android:layout_alignParentRight="true"
+                 android:layout_alignParentTop="true"/>
+</RelativeLayout> -->
